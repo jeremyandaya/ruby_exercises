@@ -3,6 +3,12 @@
 # Storing an information into an instance variable, which is outputted when an instance is created
 
 # Create an object with an instance and class method
+class Reptile
+	def initialize
+		puts "slimy"
+	end
+end
+Reptile.new
 
 # Create an Object with attributes and an instance method. Assign it to a variable, then change the attributes and call the method.
 
