@@ -30,6 +30,49 @@ end
 puts Person.new("Gandhi", 88, true)
 
 # Create an Object with attributes and an instance method. Assign it to a variable, then change the attributes and call the method.
+class Animal
+	def initialize
+	end
+
+	def sound
+		puts "I am an animal"
+	end
+end
+
+class Cat < Animal
+	def initialize
+	end
+
+	def sound
+		puts "Meow"
+	end
+end
+
+class Dog < Animal
+	def initialize
+	end
+
+	def sound
+		puts "Bow wow"
+	end
+end
+
+class SpaceAnimal < Animal
+	def initialize
+	end
+
+	def sound
+		puts "Mission Accomplished"
+	end
+end
+
+dog = Dog.new
+cat = Cat.new
+fox = SpaceAnimal.new
+
+puts cat.sound
+puts dog.sound
+puts fox.sound
 
 # Build a program that analyzes the input supplied by a heredoc then return a hash o information.
 
